@@ -19,9 +19,10 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+import image from "../images/woman-with-tablet.jpg";
+
+const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
 /**
  * Project list
@@ -31,28 +32,23 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: " resum 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      " create resum using html css javascript.",
+    url: "https://github.com/Hineshwari/resume.git",
   },
+ 
   {
-    title: "Web Development for Beginners",
+    title: "reast API",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "create reast API using html css javascript and json.",
+    url: "https://github.com/Hineshwari/rest-API.git",
   },
   {
     title: "GitHub Codespaces and github.dev",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      " figma landing page create in html css using i crate this projrct.",
+    url: "https://github.com/Hineshwari/figma-landing-page.git",
   },
 ];
 
@@ -84,3 +80,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
